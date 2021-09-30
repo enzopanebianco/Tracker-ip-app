@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+html,body,button,input{
+  font-family: 'Rubik',sans-serif;
+}
+/* CLASSE PADRÃO DO LEAFLET QUE CUSTOMIZA O MAPA */
+.leaflet-container {
+  width: 100%; 
+  z-index: -10;
+  height: 100vh;
+  position: absolute;
+}
